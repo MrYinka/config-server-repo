@@ -2,6 +2,8 @@ server:
   port: 7072
   
 spring:
+  boot:
+    message: Hello, Department Service
   datasource:
     url: jdbc:mysql://${DB_HOST:localhost}:3306/department_service_db
     username: ${DB_USERNAME:root}
